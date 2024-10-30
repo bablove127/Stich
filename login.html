@@ -36,11 +36,11 @@
             border: 3px dotted black;
             text-align: center;
         }
-        input[type='radio'] {
+        input[type='password'] {
             border-radius: 30px;
             text-align: center;
         }
-        input[type='radio']:focus {
+        input[type='password']:focus {
             background-color: gold;
             border: 3px dotted black;
             text-align: center;
@@ -58,23 +58,24 @@
             display: inline-block;
             border-radius: 20px;
         }
+        nav ul li a {display: block;font-weight: bold; text-align: center; padding: 1px 10px 3px 10px; text-decoration: none;}
   </style>
 </head>
 <body>
     <nav>
         <ul>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><a href="./index.html">메인</a></li>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><p><a href="./resume.html">이력서</a></p></li>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><p><a href="./favorite.html">즐겨찾기</a></p></li>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><a href="./login.html">로그인</a></li>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><a href="./register.html">회원가입</a></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><a href="./index.html">메인</a></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><p><a href="./resume.html">이력서</a></p></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><p><a href="./favorite.html">즐겨찾기</a></p></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><a href="./login.html">로그인</a></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><a href="./register.html">회원가입</a></li>
         </ul>
         <form action="#" style="text-align: center;" id="submit1form">
             <h3 style="color: greenyellow;">로그인</h3>
-            <p id="ids" style="color: deepskyblue;">아이디 : <input type="text" placeholder="아이디 입력" maxlength="20" style="background-color: greenyellow;"></p>
-            <p id="passwords" style="color: deepskyblue;">패스워드 : <input type="text" placeholder="패스워드 입력" maxlength="20" style="background-color:greenyellow;"></p>
-            <p id="login2"><button style="cursor: pointer; background-color: greenyellow;">로그인</button></p>
-            <p id="gaib2"><button style="cursor: pointer; background-color: deepskyblue;" float="left">회원가입</button></p>
+            <p id="ids" style="color: deepskyblue;"><a style="font-size: 15px;">아이디 : <input type="text" placeholder="아이디 입력" maxlength="20" style="background-color: greenyellow;"></a></p>
+            <p id="passwords" style="color: deepskyblue;"><a style="font-size: 15px;">패스워드 : <input type="password" placeholder="패스워드 입력" maxlength="20" style="background-color:greenyellow;"></a></p>
+        <p id="login2"><button type="button" style="cursor: pointer; background-color: deepskyblue;" onClick="location.href='./login.html'">로그인</button></p>
+        <p id="gaib2"><button type="button" style="cursor: pointer; background-color: greenyellow;" onClick="location.href='./register.html'">회원가입</button></p>
         </form>
 </body>
     <footer>

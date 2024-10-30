@@ -18,34 +18,39 @@
             width: 30%; height: 43%;
         }
         input[type='text'] { border-radius: 30px; }
-        input[type='text']:focus { background-color: gold; border: 3px dotted black; border-radius: 20px; }
+        input[type='text']:focus { background-color: gold; border: 3px dotted black;border-radius: 20px; }
+        input[type='password'] { border-radius: 30px; }
+        input[type='password']:focus { background-color: gold; border: 3px dotted black;border-radius: 20px; }
+        input[type='email'] { border-radius: 30px; }
+        input[type='email']:focus { background-color: gold; border: 3px dotted black;border-radius: 20px; }
         #login2 { text-align: left; left: 150px; right: 150px; bottom: 50px; 
             display: inline-block; border-radius: 20px; }
         #gaib2 { text-align: left; display: inline-block; border-radius: 20px; }
         #passwords1 { color: deepskyblue; }
         #names { color: deepskyblue; }
         #email1 { color: deepskyblue; }
+        nav ul li a {display: block;font-weight: bold; text-align: center; padding: 1px 10px 3px 10px; text-decoration: none;}
   </style>
 </head>
 <body>
     <nav>
         <ul>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><a href="./index.html">메인</a></li>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><p><a href="./resume.html">이력서</a></p></li>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><p><a href="./favorite.html">즐겨찾기</a></p></li>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><a href="./login.html">로그인</a></li>
-        <li style="display: inline-block; text-align: center; font-size: 19px;"><a href="./register.html">회원가입</a></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><a href="./index.html">메인</a></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><p><a href="./resume.html">이력서</a></p></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><p><a href="./favorite.html">즐겨찾기</a></p></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><a href="./login.html">로그인</a></li>
+            <li style="display: inline-block; font-size: 20px; color: black;"><a href="./register.html">회원가입</a></li>
         </ul>
     </nav>
     <form action="#" style="text-align: center;" id="submit1form">
         <h3 style="color: greenyellow;">회원가입</h3>
-        <p id="ids">아이디 : <input type="text" placeholder="아이디 입력" maxlength="20" style="background-color: greenyellow;"></p>
-        <p id="passwords">패스워드 : <input type="text" placeholder="패스워드 입력" maxlength="20" style="background-color: greenyellow;"></p>
-        <p id="passwords1">패스워드 확인 : <input type="text" placeholder="패스워드 재입력" maxlength="30" style="background-color: greenyellow;"></p>
-        <p id="names">이름 : <input type="text" placeholder="이름" maxlength="30" style="background-color: greenyellow;"></p>
-        <p id="email1">이메일 : <input type="text" placeholder="example@gmail.com" maxlength="30" style="background-color: greenyellow;"></p>
-        <p id="login2"><button style="cursor: pointer; background-color: deepskyblue;">로그인</button></p>
-        <p id="gaib2"><button style="cursor: pointer; background-color: greenyellow;">회원가입</button></p>
+        <p id="ids" style="color: deepskyblue;"><a style="font-size: 15px;">아이디 : <input type="text" placeholder="아이디 입력" maxlength="20" style="background-color: greenyellow;"></a></p>
+        <p id="passwords"><a style="font-size: 15px;">패스워드 : <input type="password" placeholder="패스워드 입력" maxlength="20" style="background-color: greenyellow;"></a></p>
+        <p id="passwords1"><a style="font-size: 15px;">패스워드 확인 : <input type="password" placeholder="패스워드 재입력" maxlength="30" style="background-color: greenyellow;"></a></p>
+        <p id="names"><a style="font-size: 15px;">이름 : <input type="text" placeholder="이름" maxlength="30" style="background-color: greenyellow;"></a></p>
+        <p id="email1"><a style="font-size: 15px;">이메일 : <input type="email" placeholder="example@gmail.com" maxlength="30" style="background-color: greenyellow;"></a></p>
+        <p id="login2"><button type="button" style="cursor: pointer; background-color: deepskyblue;" onClick="location.href='./login.html'">로그인</button></p>
+        <p id="gaib2"><button type="button" style="cursor: pointer; background-color: greenyellow;" onClick="location.href='#'">회원가입</button></p>
     </form>
 </body>
     <footer>
