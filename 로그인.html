@@ -1,0 +1,85 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회원가입</title>
+    <style>
+        html { background: url("./back.jpg");background-size: cover;}
+        a { color: darkturquoise; text-decoration: none;}
+        body { background-color: rgb(176, 222, 230); position: absolute;}
+        .input { box-sizing: border-box; width: 100%; padding: 10px 20px; margin: 5px 0; }
+        #ids { font-size: 10px; border: none; border-radius: 20px; }
+        #passwords { font-size: 10px; border: none; border-radius: 20px; }
+        #submit1form{ 
+            padding:50px 50px;
+            border:4px solid deepskyblue;
+            border-radius: 50px;
+            text-align: center;
+            position: absolute;
+            margin: 0 auto;
+            top: 200px;
+            left: 150px;
+            right: 40px;
+            bottom: 40px;
+            width: 30%;
+            height: 85%;
+        }
+
+        input[type='text'] {
+            border-radius: 30px;
+            text-align: center;
+        }
+        input[type='text']:focus {
+            background-color: gold;
+            border: 3px dotted black;
+            text-align: center;
+        }
+        input[type='radio'] {
+            border-radius: 30px;
+            text-align: center;
+        }
+        input[type='radio']:focus {
+            background-color: gold;
+            border: 3px dotted black;
+            text-align: center;
+        }
+        #login2 {
+            text-align: left;
+            left: 150px;
+            right: 150px;
+            bottom: 50px;
+            display: inline-block;
+            border-radius: 20px;
+        }
+        #gaib2 {
+            text-align: left;
+            display: inline-block;
+            border-radius: 20px;
+        }
+  </style>
+</head>
+<body>
+    <nav>
+        <ul>
+        <li style="display: inline-block; text-align: center; font-size: 19px;"><a href="./메인.html">메인</a></li>
+        <li style="display: inline-block; text-align: center; font-size: 19px;"><p><a href="./이력서.html">이력서</a></p></li>
+        <li style="display: inline-block; text-align: center; font-size: 19px;"><p><a href="./즐겨찾기.html">즐겨찾기</a></p></li>
+        <li style="display: inline-block; text-align: center; font-size: 19px;"><a href="./로그인.html">로그인</a></li>
+        <li style="display: inline-block; text-align: center; font-size: 19px;"><a href="./회원가입.html">회원가입</a></li>
+        </ul>
+        <form action="#" style="text-align: center;" id="submit1form">
+            <h3 style="color: greenyellow;">로그인</h3>
+            <p id="ids" style="color: deepskyblue;">아이디 : <input type="text" placeholder="아이디 입력" maxlength="20" style="background-color: greenyellow;"></p>
+            <p id="passwords" style="color: deepskyblue;">패스워드 : <input type="text" placeholder="패스워드 입력" maxlength="20" style="background-color:greenyellow;"></p>
+            <p id="login2"><button style="cursor: pointer; background-color: greenyellow;">로그인</button></p>
+            <p id="gaib2"><button style="cursor: pointer; background-color: deepskyblue;" float="left">회원가입</button></p>
+        </form>
+</body>
+    <footer>
+    <div>
+    <Lorem>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolorum aliquam tenetur porro fugiat perspiciatis, perferendis eveniet quam dignissimos illum cupiditate! Suscipit vel, minima quia obcaecati nam quam neque debitis voluptates?</p>
+    </div>
+    </footer>
+</html>
